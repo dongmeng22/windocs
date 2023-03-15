@@ -1,0 +1,9 @@
+dist/
+node_modules/
+types/
+cache/
+!docs/.vitepress
+docs/
+!/.eslintrc.js
+!.test
+.temp

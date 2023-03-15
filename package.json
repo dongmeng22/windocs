@@ -1,0 +1,81 @@
+{
+  "name": "windocs",
+  "version": "0.1.2",
+  "packageManager": "pnpm@7.29.1",
+  "description": "一站式前端内容网站，前端成长路线，知识体系，致力于前端未来发展",
+  "author": "winter wang<https://github.com/dongmeng22>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongmeng22/windocs"
+  },
+  "bugs": {
+    "url": "https://github.com/dongmeng22/windocs/issues"
+  },
+  "keywords": [
+    "react",
+    "vue",
+    "TypeScript",
+    "webpack",
+    "Node.js",
+    "Next.js",
+    "winter wang"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs --port 8080",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "lint": "eslint --cache .",
+    "lint-fix": "nr lint --fix",
+    "release": "esno scripts/release.ts"
+  },
+  "devDependencies": {
+    "@algolia/client-search": "^4.15.0",
+    "@antfu/eslint-config": "^0.36.0",
+    "@antfu/ni": "^0.20.0",
+    "@iconify/json": "^2.2.7",
+    "@types/fs-extra": "^11.0.0",
+    "@types/md5": "^2.3.2",
+    "bumpp": "^9.0.0",
+    "busuanzi.pure.js": "^1.0.3",
+    "cz-git": "^1.6.0",
+    "dayjs": "^1.11.7",
+    "eslint": "^8.36.0",
+    "esno": "^0.16.3",
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^11.1.0",
+    "gray-matter": "^4.0.3",
+    "lint-staged": "^13.2.0",
+    "md5": "^2.3.0",
+    "medium-zoom": "^1.0.8",
+    "ohmyfetch": "^0.4.21",
+    "postcss": "^8.4.21",
+    "postcss-nested": "^6.0.0",
+    "prettier": "^2.8.4",
+    "simple-git": "^3.17.0",
+    "simple-git-hooks": "^2.8.1",
+    "sitemap-ts": "^1.1.0",
+    "typescript": "^4.9.5",
+    "unocss": "^0.50.0",
+    "unplugin-icons": "^0.15.1",
+    "unplugin-vue-components": "^0.24.0",
+    "vite": "^4.1.4",
+    "vitepress": "1.0.0-alpha.56",
+    "vue": "^3.2.47"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md}": [
+      "eslint --cache --fix"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git",
+      "useEmoji": true
+    }
+  }
+}
