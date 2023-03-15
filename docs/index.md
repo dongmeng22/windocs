@@ -17,8 +17,8 @@ hero:
       text: 开始阅读
       link: /guide/
     - theme: alt
-      text: 备用站点
-      link: https://chodocs.netlify.app/
+      text: 前端算法
+      link: /code/algorithm/
 features:
   - icon: 🔥
     title: 技术视野
