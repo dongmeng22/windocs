@@ -5,10 +5,6 @@ on:
     branches:
       - main
 
-  pull_request:
-    branches:
-      - main
-
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -33,3 +29,17 @@ jobs:
 
       - name: Lint
         run: nr lint
+
+      - name: Build
+        run: nr build
+
+      - name: Push To Pages
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          # 指定密钥，即在第一步中设置的
+          ACCESS_TOKEN: ${{ secrets.BLOG_PAGES }}
+          # 指定推送到的远程分支
+          BRANCH: main
+          # 指定构建之后的产物要推送哪个目录的代码
+          FOLDER: dist
+
