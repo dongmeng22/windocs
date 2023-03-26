@@ -34,8 +34,8 @@ const getGithubLink = (name: string) => `https://github.com/${reName(name)}`
       <div>
         <span class="font-bold">文章链接：</span>
         <span>
-          <a :href="pageHref" rel="noreferrer" target="_blank">
-            {{ pageHref }}
+          <a  style="word-break: break-all;" :href="pageHref" rel="noreferrer" target="_blank">
+            {{ decodeURI(pageHref) }}
           </a>
         </span>
       </div>

@@ -48,7 +48,7 @@ export default {
           { text: '🔥 前端算法', link: '/code/algorithm/' },
           { text: '🔥 设计模式', link: '/code/design_patterns/' },
           { text: '🔥 函数式编程', link: '/code/functional_programming/' },
-          { text: '📋 面试', link: '/code/interview/' },
+          { text: '📔 面试专题', link: '/code/interview/' },
         ],
       },
       {

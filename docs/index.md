@@ -17,8 +17,8 @@ hero:
       text: 开始阅读
       link: /guide/
     - theme: alt
-      text: 前端算法
-      link: /code/algorithm/
+      text: 面试专题
+      link: /code/interview/
 features:
   - icon: 🔥
     title: 技术视野
