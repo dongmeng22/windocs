@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@algolia/client-search': ^4.15.0
   '@antfu/eslint-config': ^0.36.0
-  '@antfu/ni': ^0.20.0
+  '@antfu/ni': ^0.21.0
   '@iconify/json': ^2.2.7
   '@types/fs-extra': ^11.0.0
   '@types/md5': ^2.3.2
@@ -37,7 +37,7 @@ specifiers:
 devDependencies:
   '@algolia/client-search': 4.15.0
   '@antfu/eslint-config': 0.36.0_vgl77cfdswitgr47lm5swmv43m
-  '@antfu/ni': 0.20.0
+  '@antfu/ni': 0.21.2
   '@iconify/json': 2.2.34
   '@types/fs-extra': 11.0.1
   '@types/md5': 2.3.2
@@ -292,8 +292,8 @@ packages:
       find-up: 5.0.0
     dev: true
 
-  /@antfu/ni/0.20.0:
-    resolution: {integrity: sha512-mBgAuq2b0daSA/14LMyjEjaInD7/Zd7KVXZge7bQPKmtQJFqy9/pWBml6DMkMreeHQEomMtIbbeqReNJ/74kjA==}
+  /@antfu/ni/0.21.2:
+    resolution: {integrity: sha512-nzj1bnkUIYZt6ANeQzGXGUOeeJ9k/TDnfwaAE/ElxSKQxBjjJ+PQMcZfpAKKwRc1rE+PGJ8WRQBWRUrQn7Mnuw==}
     hasBin: true
     dev: true
 
