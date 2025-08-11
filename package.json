@@ -52,7 +52,7 @@
     "ohmyfetch": "^0.4.21",
     "postcss": "^8.4.21",
     "postcss-nested": "^6.0.0",
-    "prettier": "^2.8.4",
+    "prettier": "^3.0.0",
     "simple-git": "^3.17.0",
     "simple-git-hooks": "^2.8.1",
     "sitemap-ts": "^1.1.0",
